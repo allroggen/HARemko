@@ -1,0 +1,7 @@
+"""Domain constants for HARemko."""
+
+DOMAIN = "haremko"
+
+DEFAULT_SCAN_INTERVAL_SECONDS = 30
+MAX_BACKOFF_SECONDS = 300
+MAX_WRITE_RETRIES = 3
