@@ -1,0 +1,9 @@
+{
+  "domain": "haremko",
+  "name": "HARemko",
+  "version": "0.1.0",
+  "documentation": "https://github.com/allroggen/HARemko",
+  "issue_tracker": "https://github.com/allroggen/HARemko/issues",
+  "requirements": [],
+  "iot_class": "cloud_polling"
+}
