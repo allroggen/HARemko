@@ -1,0 +1,9 @@
+{
+  "name": "HARemko",
+  "content_in_root": false,
+  "domains": [
+    "haremko"
+  ],
+  "homeassistant": "2024.1.0",
+  "render_readme": true
+}
