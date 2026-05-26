@@ -27,6 +27,9 @@ Model-first foundation for a better REMKO/Home Assistant integration.
 - `build_diagnostics_payload` exposes per-unit metadata:
   - unit id, model, profile, portal metadata
   - explicit capability map for transparency/debugging
+- config flow now mirrors the reference split:
+  - login step with SmartWeb email/password
+  - device step with name and polling interval
 
 ## Project layout
 

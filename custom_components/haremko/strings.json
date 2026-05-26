@@ -2,7 +2,34 @@
   "config": {
     "step": {
       "user": {
-        "title": "HARemko"
+        "title": "HARemko",
+        "description": "Melde dich mit deinem REMKO-SmartWeb-Konto an.",
+        "data": {
+          "email": "E-Mail",
+          "password": "Passwort"
+        }
+      },
+      "device": {
+        "title": "HARemko",
+        "description": "Lege den Gerätenamen und das Polling fest.",
+        "data": {
+          "device_name": "Gerätename",
+          "scan_interval": "Polling-Intervall (Sekunden)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Bitte E-Mail und Passwort eingeben.",
+      "invalid_device_name": "Bitte einen Gerätenamen eingeben."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "HARemko Optionen",
+        "data": {
+          "scan_interval": "Polling-Intervall (Sekunden)"
+        }
       }
     }
   }
